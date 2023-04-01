@@ -1,0 +1,43 @@
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    background-color: #f2f2f2;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-link:hover {
+    background-color: #ddd;
+}
+
+.tab-link.active {
+    background-color: #ddd;
+    color: #333;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #333;
+}
